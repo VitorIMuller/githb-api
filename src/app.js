@@ -5,8 +5,6 @@ import dotenv from "dotenv"
 import errorHandleMiddleware from "./Middlewares/errorHandleMiddleware.js"
 import router from "./Routers/index.js"
 
-
-
 const app = express()
 
 dotenv.config();
