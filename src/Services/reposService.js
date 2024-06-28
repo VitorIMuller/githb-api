@@ -12,7 +12,8 @@ export async function getRepos() {
                 name: repo.full_name,
                 description: repo.description,
                 language: repo.language,
-                created_at: repo.created_at
+                created_at: repo.created_at,
+                url_image: repo.owner.avatar_url
             }
     }).slice(0, 5);
 } 
